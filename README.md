@@ -1,2 +1,1 @@
-# linguagem-c-sandro
-aulas do sandro sobre linguagem C
+PASTA PARA GUARDAR MINHAS COISAS FEITAS EM AULA DA FACUL
