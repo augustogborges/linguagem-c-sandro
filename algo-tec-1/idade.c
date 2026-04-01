@@ -14,8 +14,9 @@ int main()
         printf("Juvenil A");
     }else if (idade >=14 && idade <=17){
         printf("Juvenil B");
-    }else{
+    }else if (idade >= 18){
         printf("Adulto");
-    }    
+    }else
+        printf("Indisponivel");
     return 0;
 }
