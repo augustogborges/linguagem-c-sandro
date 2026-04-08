@@ -1,20 +1,55 @@
-body{
-    background-color: blue;
-    alit
-}
-
-h1{
-    color: white;
-}
-
-p{
-    color: white;
-}
-img{
-    width: 300;
-    height: 200;
+*{
+    font-family: 'Times New Roman', Times, serif;
+    color: white
 }
 
 a{
     color: white;
+}
+
+hr{
+    color: red;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    border-style: groove;
+    border-width: 2px;
+    border-color: red;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+h2{
+    background-color: black;
+    color: white;
+}
+
+img{
+    width: 50%;
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    border-style: groove;
+    border-width: 2px;
+    border-color: red;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.p2{
+    text-align: right;
+
+}
+
+.p3{
+    text-align: justify;
+    width: 600px;
+}
+
+#fonte{
+    font-size: 22px;
 }
