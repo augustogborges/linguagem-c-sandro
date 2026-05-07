@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int i;
+    int i, posicao;
     float consumo, km;
     consumo = 0;
     for(i = 1; i <= 5; i++){
@@ -10,10 +10,11 @@ int main(){
 
         if(km > consumo){
             consumo = km;
+            posicao = i;
         }
     }
 
-    printf("Maior km é %.2f\n", consumo);
+    printf("Maior km é %.2f e esta na posição %i\n", consumo,posicao);
 
     return 0;
 }
